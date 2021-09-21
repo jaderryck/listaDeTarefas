@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de tarefas</title>
     <link rel="icon" href="./image/tarefa.png">
-    <link href="style.css" rel="styleseet">
+    <link href="style.css" rel="stylesheet">
     <script src="script.js"></script>
 </head>
 <body>
     <div id="container">
         <h1>Lista de Tarefas</h1>
-        <input on type="text" placeholder="Digite tarefas">
-        <input onclick="adicionar" type="button" value="Adicionar">
-        <input onclick="remover" type="button" value="Remover">
+        <input class="input" id="task" type="text" placeholder="Digite tarefas">
+        <input class="input" id="addTask" onclick="adicionar" type="button" value="Adicionar">
+        <input class="input" id="cleanTask" onclick="remover" type="button" value="Remover">
 
-        <ul id="id"></ul>
+        <ul id="ul"></ul>
     </div>
 </body>
 </html>
